@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "LIMO",
+    "slug": "limo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "limo",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.limo.platform",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.limo.platform",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A1128"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 248 250 252;
+    --foreground: 10 25 47;
+    --card: 255 255 255;
+    --card-foreground: 10 25 47;
+    --border: 226 232 240;
+    --primary: 0 102 255;
+    --accent: 0 210 255;
+  }
+
+  .dark {
+    --background: 5 13 26;
+    --foreground: 241 245 249;
+    --card: 14 26 46;
+    --card-foreground: 241 245 249;
+    --border: 30 46 72;
+    --primary: 0 102 255;
+    --accent: 0 210 255;
+  }
+
+  body {
+    @apply bg-slate-50 text-limo-navy dark:bg-limo-navyDark dark:text-slate-100 antialiased selection:bg-limo-blue/20 selection:text-limo-blue;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #1e293b;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Glassmorphism helpers */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.dark .glass {
+  background: rgba(14, 26, 46, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
