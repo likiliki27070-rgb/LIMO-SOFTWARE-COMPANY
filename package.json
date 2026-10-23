@@ -1,0 +1,10 @@
+{
+  "name": "limo-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd limo-web && npm run dev",
+    "build": "cd limo-web && npm install && npm run build",
+    "start": "cd limo-web && npm start"
+  }
+}
