@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/33878284/README.md)
+<img width="1400" height="480" alt="limo-banner" src="https://github.com/user-attachments/assets/3743db9f-4e05-41f0-8068-4af95ac92c24" />[README.md](https://github.com/user-attachments/files/33878284/README.md)
 
 LIMO is```{=html}
 <p align="center">
@@ -405,3 +405,10 @@ together.`</strong>`{=html}
 </p>
 ```
  a software development agency and freelancing marketplace connecting clients with skilled developers to build websites, mobile apps, and digital solutions through a secure, modern web and mobile platform.
+
+
+<img width="1400" height="480" alt="limo-banner" src="https://github.com/user-attachments/assets/368dd6a4-6da9-4a57-b4bf-4cfb74a2f12d" />
+ ![limo-architecture](https://github.com/user-attachments/assets/9d7f9540-a8d0-4dfe-ac6a-b0b663474f16)
+
+![Uploading li![limo-architecture](https://github.com/user-attachments/assets/76d3cec3-03cb-427a-ad0a-4f99f8eb7d2e)mo-banner.svg…]()
+
